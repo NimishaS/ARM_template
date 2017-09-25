@@ -1,0 +1,29 @@
+{
+    "newStorageAccountName": {
+       "value": "nimstoragevm5"
+    },
+    "adminUserName": {
+       "value": "azure"
+    },
+    "adminPassword": {
+       "value": "azure@123"
+    },
+    "dnsNameForPublicIP": {
+       "value": "nim-win5"
+    },
+    "client_rb": {
+       "value" : "log_level        :info\nlog_location     STDOUT\nchef_server_url  \"https://api.opscode.com/organizations/org\"\nvalidation_client_name    \"org-validator\"\nclient_key        \"C:/chef/client.pem\"\n#testkey\nvalidation_key    \"C:/chef/validation.pem\""
+    },
+    "location": {
+      "value": "West US"
+    },
+    "validation_key": {
+        "value": "-----BEGIN RSA PRIVATE KEY-----Validation Key-----END RSA PRIVATE KEY-----"
+    },
+    "chef_node_name": {
+        "value": "nim-win5"
+    },
+    "vmName": {
+      "value": "nim-win5"
+    }
+}
