@@ -1,0 +1,41 @@
+{
+    "newStorageAccountName": {
+        "value": "nimstoragevm"
+    },
+    "adminUserName": {
+        "value": "azure"
+    },
+    "adminPassword": {
+        "value": "azure@123"
+    },
+    "vmDnsName": {
+        "value": "nim-vm"
+    },
+    "imagePublisher": {
+        "value": "Canonical"
+    },
+    "imageOffer": {
+        "value": "UbuntuServer"
+    },
+    "imageSKU": {
+        "value": "14.04.2-LTS"
+    },
+    "location": {
+        "value": "West US"
+    },
+    "vmSize": {
+        "value": "Standard_A0"
+    },
+    "chef_node_name": {
+        "value": "nim-vm"
+    },
+    "chef_server_url": {
+        "value": "https://api.chef.io/organizations/org"
+    },
+    "validation_client_name": {
+        "value": "org-validator"
+    },
+    "validation_key": {
+        "value": "-----BEGIN RSA PRIVATE KEY-----\nvalidation_key\n-----END RSA PRIVATE KEY-----"
+    }
+}
